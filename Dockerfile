@@ -11,4 +11,5 @@ COPY . .
 RUN npm install
 
 # Run the app
+EXPOSE 80
 CMD ["node", "server.js"]
